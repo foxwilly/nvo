@@ -74,12 +74,6 @@ Graphical representation of the topology:
 ![5](https://user-images.githubusercontent.com/25910108/231103867-55de8615-ad4d-4a6d-a79f-e61576c1e7e1.jpg)
 
 
-
-![11](https://user-images.githubusercontent.com/25910108/231103880-0ab7247b-c2a6-45da-b7b0-e165f749c34c.jpg)
-![10](https://user-images.githubusercontent.com/25910108/231103882-b7f14274-185c-4577-8fee-966cb7cbf0e4.jpg)
-
-
-
 ### 3.- Automate spinning up and configuring an SDN controller as another Docker container. 
 Inside of one VM with we will automate the creation of SDN Ryu and and FRR router in containers
 
