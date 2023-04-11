@@ -1,0 +1,12 @@
+FROM ubuntu:latest
+
+RUN apt-get update && \
+    apt-get install -y frr && \
+    apt-get install -y vim && \
+    apt-get install -y iputils-ping && \
+    rm -rf /var/lib/apt/lists/*
+
+COPY frr.conf /etc/frr/frr.conf
+
+CMD ["/usr/lib/frr/frrinit.sh", "start"]
+CMD ["/bin/bash"]

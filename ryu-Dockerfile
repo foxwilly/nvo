@@ -1,0 +1,9 @@
+FROM osrg/ryu:latest
+
+RUN apt-get update && \
+    apt-get install -y openvswitch-switch && \
+    apt-get install -y vim && \
+    apt-get install -y iputils-ping && \
+    rm -rf /var/lib/apt/lists/*
+
+CMD ["/bin/bash"]
